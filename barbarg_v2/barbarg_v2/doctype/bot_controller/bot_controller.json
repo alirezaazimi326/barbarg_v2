@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-26 00:56:20.085970",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bot_status",
+  "last_start_time",
+  "process_id",
+  "column_break_1",
+  "bot_directory",
+  "python_path",
+  "section_break_1",
+  "bot_logs"
+ ],
+ "fields": [
+  {
+   "default": "Stopped",
+   "fieldname": "bot_status",
+   "fieldtype": "Select",
+   "label": "\u0648\u0636\u0639\u06cc\u062a \u0628\u0627\u062a",
+   "options": "\nRunning\nStopped\nError"
+  },
+  {
+   "fieldname": "last_start_time",
+   "fieldtype": "Datetime",
+   "label": "\u0622\u062e\u0631\u06cc\u0646 \u0632\u0645\u0627\u0646 \u0634\u0631\u0648\u0639"
+  },
+  {
+   "fieldname": "process_id",
+   "fieldtype": "Data",
+   "label": "\u0634\u0646\u0627\u0633\u0647 \u0641\u0631\u0622\u06cc\u0646\u062f"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bot_directory",
+   "fieldtype": "Data",
+   "label": "\u0645\u0633\u06cc\u0631 \u0628\u0627\u062a"
+  },
+  {
+   "fieldname": "python_path",
+   "fieldtype": "Data",
+   "label": "\u0645\u0633\u06cc\u0631 \u067e\u0627\u06cc\u062a\u0648\u0646"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "\u06af\u0632\u0627\u0631\u0634\u200c\u0647\u0627"
+  },
+  {
+   "fieldname": "bot_logs",
+   "fieldtype": "Long Text",
+   "label": "\u06af\u0632\u0627\u0631\u0634\u200c\u0647\u0627\u06cc \u0628\u0627\u062a"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-26 00:56:20.085970",
+ "modified_by": "Administrator",
+ "module": "BarBarg V2",
+ "name": "Bot Controller",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

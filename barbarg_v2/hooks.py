@@ -21,6 +21,11 @@ app_license = "mit"
 # 	}
 # ]
 
+whitelisted = [
+    "barbarg_v2.api.bot.start_bot"
+]
+
+
 # Includes in <head>
 # ------------------
 

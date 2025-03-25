@@ -14,8 +14,9 @@
   {
    "fieldname": "log_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Log Type",
-   "options": "\nInfo\nWarning\nError"
+   "options": "Wrong Password\nBlocked Panel\nDriver-Vehicle Mapping"
   },
   {
    "fieldname": "timestamp",
@@ -25,14 +26,14 @@
   {
    "fieldname": "driver",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Driver",
-   "options": "Drivers",
-   "unique": 1
+   "options": "Drivers"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-25 15:40:12.620289",
+ "modified": "2025-03-25 18:38:03.765756",
  "modified_by": "Administrator",
  "module": "BarBarg V2",
  "name": "Site Log",
