@@ -1,0 +1,209 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "DRV.####",
+ "creation": "2025-03-12 18:30:00.599219",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "credential_section",
+  "user_name",
+  "column_break_dsoh",
+  "password",
+  "section_break_bqwl",
+  "receiver_information_column",
+  "receiver_full_name",
+  "receiver_phone_number",
+  "sender_information_column",
+  "sender_full_name",
+  "sender_phone_number",
+  "cargo_section",
+  "product_name",
+  "weight",
+  "packages_number",
+  "column_break_dskt",
+  "packaging_type",
+  "cargo_value",
+  "insurance",
+  "section_break_pckq",
+  "2left_number",
+  "column_break_lutl",
+  "letter",
+  "column_break_avtr",
+  "3center_number",
+  "column_break_dhwf",
+  "ir_number",
+  "section_break_fvrf",
+  "pelak_tajmiei"
+ ],
+ "fields": [
+  {
+   "fieldname": "credential_section",
+   "fieldtype": "Section Break",
+   "label": "Credential"
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "User Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dsoh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password"
+  },
+  {
+   "fieldname": "cargo_section",
+   "fieldtype": "Section Break",
+   "label": "Cargo"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Data",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "packages_number",
+   "fieldtype": "Data",
+   "label": "Packages Number"
+  },
+  {
+   "fieldname": "column_break_dskt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cargo_value",
+   "fieldtype": "Data",
+   "label": "Cargo Value"
+  },
+  {
+   "default": "0",
+   "fieldname": "insurance",
+   "fieldtype": "Check",
+   "label": "Insurance"
+  },
+  {
+   "fieldname": "section_break_bqwl",
+   "fieldtype": "Section Break",
+   "label": "Sender & Receiver"
+  },
+  {
+   "fieldname": "receiver_information_column",
+   "fieldtype": "Column Break",
+   "label": "Receiver Information"
+  },
+  {
+   "fieldname": "receiver_full_name",
+   "fieldtype": "Data",
+   "label": "Receiver Full Name"
+  },
+  {
+   "fieldname": "sender_information_column",
+   "fieldtype": "Column Break",
+   "label": "Sender Information"
+  },
+  {
+   "fieldname": "receiver_phone_number",
+   "fieldtype": "Data",
+   "label": "Receiver Phone Number"
+  },
+  {
+   "fieldname": "sender_full_name",
+   "fieldtype": "Data",
+   "label": "Sender Full Name"
+  },
+  {
+   "fieldname": "sender_phone_number",
+   "fieldtype": "Data",
+   "label": "Sender Phone Number"
+  },
+  {
+   "fieldname": "packaging_type",
+   "fieldtype": "Data",
+   "label": "Packaging Type"
+  },
+  {
+   "fieldname": "section_break_pckq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "2left_number",
+   "fieldtype": "Int",
+   "label": "2Left Number"
+  },
+  {
+   "fieldname": "column_break_lutl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "letter",
+   "fieldtype": "Select",
+   "label": "Letter",
+   "options": "\u0627\u0644\u0641\n\u0628\n\u062c\n\u062f\n\u0639\n\u0633\n\u0647"
+  },
+  {
+   "fieldname": "column_break_avtr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "3center_number",
+   "fieldtype": "Int",
+   "label": "3Center Number"
+  },
+  {
+   "fieldname": "column_break_dhwf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ir_number",
+   "fieldtype": "Int",
+   "label": "IR Number"
+  },
+  {
+   "fieldname": "section_break_fvrf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pelak_tajmiei",
+   "fieldtype": "Data",
+   "label": "Pelak Tajmiei"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-18 01:58:47.303557",
+ "modified_by": "Administrator",
+ "module": "BarBarg V2",
+ "name": "Drivers",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
