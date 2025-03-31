@@ -33,13 +33,25 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-25 18:38:03.765756",
+ "modified": "2025-03-28 21:31:13.986445",
  "modified_by": "Administrator",
  "module": "BarBarg V2",
  "name": "Site Log",
  "owner": "Administrator",
- "permissions": [],
- "sort_field": "modified",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
  "sort_order": "DESC",
  "states": []
 }
